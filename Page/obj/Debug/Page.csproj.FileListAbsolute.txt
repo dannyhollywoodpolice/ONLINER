@@ -1,0 +1,9 @@
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\bin\Debug\Page.dll
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\bin\Debug\Page.pdb
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\bin\Debug\WebDriver.dll
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\bin\Debug\WebDriver.Support.dll
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\bin\Debug\WebDriver.xml
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\bin\Debug\WebDriver.Support.xml
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\obj\Debug\Page.csprojResolveAssemblyReference.cache
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\obj\Debug\Page.dll
+C:\Users\Lilia_Perevozchikova\documents\visual studio 2015\Projects\ONLINER\Page\obj\Debug\Page.pdb

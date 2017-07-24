@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{84358CCD-37AB-4D63-9531-F01C1518749C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page", "Page\Page.csproj", "{504E1CB1-2626-4516-9C28-7245D286911E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Tests\Test.csproj", "{B56520EE-B4D0-4AEE-B111-356A65395B17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84358CCD-37AB-4D63-9531-F01C1518749C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84358CCD-37AB-4D63-9531-F01C1518749C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84358CCD-37AB-4D63-9531-F01C1518749C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84358CCD-37AB-4D63-9531-F01C1518749C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504E1CB1-2626-4516-9C28-7245D286911E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504E1CB1-2626-4516-9C28-7245D286911E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504E1CB1-2626-4516-9C28-7245D286911E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504E1CB1-2626-4516-9C28-7245D286911E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56520EE-B4D0-4AEE-B111-356A65395B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56520EE-B4D0-4AEE-B111-356A65395B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56520EE-B4D0-4AEE-B111-356A65395B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56520EE-B4D0-4AEE-B111-356A65395B17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
