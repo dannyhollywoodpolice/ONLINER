@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Browser.cs" />
     <Compile Include="PageObjects\Header.cs" />
+    <Compile Include="PageObjects\SearchResultPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

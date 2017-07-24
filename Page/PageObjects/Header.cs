@@ -20,6 +20,8 @@ namespace Page
 
         public IWebElement SearchBox => driver.FindElement(By.XPath("//input[contains(@name, 'query')]"));
 
-
+        public IList<IWebElement> ListOfResults => driver.FindElements(By.TagName("a"));
+        //*[@class='MyClassName']
+        public IWebElement Res => driver.FindElement(By.XPath("//*[@class='product__title-link']"));
     }
 }
