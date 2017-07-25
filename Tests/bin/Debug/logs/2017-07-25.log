@@ -1,0 +1,7 @@
+2017-07-25 16:48:45.2911 | DEBUG | Test.SearchTests | Initializing browser!
+2017-07-25 16:48:45.3071 | DEBUG | Test.SearchTests | Starting browser!
+2017-07-25 16:48:52.7199 | INFO | Test.SearchTests | Navigating to 'https://www.onliner.by/!'
+2017-07-25 16:48:53.1272 | INFO | Test.SearchTests | Entering word 'iPhone' in search box!
+2017-07-25 16:49:09.2493 | INFO | Test.SearchTests | Clicking the first link in list of search results and get article!
+2017-07-25 16:49:09.2493 | INFO | Test.SearchTests | Checking if title of article contains 'iPhone'!
+2017-07-25 16:49:09.3068 | DEBUG | Test.SearchTests | Closing browser!

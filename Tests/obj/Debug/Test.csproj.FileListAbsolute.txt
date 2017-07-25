@@ -30,3 +30,6 @@ C:\Users\Lilia_Perevozchikova\ONLINER\Tests\obj\Debug\Tests.dll
 C:\Users\Lilia_Perevozchikova\ONLINER\Tests\obj\Debug\Tests.pdb
 C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\Tests.dll.config
 C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\geckodriver.exe
+C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\NLog.config
+C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\NLog.dll
+C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\NLog.xml
