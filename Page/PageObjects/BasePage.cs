@@ -8,12 +8,15 @@ using System.Threading.Tasks;
 
 namespace Page
 {
-    public class Header : BasePage
+    public class BasePage
     {
-        public Header(IWebDriver browser) : base(browser)
-        {
-        }
 
-        public IWebElement SearchBox => driver.FindElement(By.XPath("//input[contains(@name, 'query')]"));
+        public  readonly IWebDriver driver;
+
+        public BasePage(IWebDriver browser)
+        {
+            this.driver = browser;
+            PageFactory.InitElements(browser, this);
+        }
     }
 }

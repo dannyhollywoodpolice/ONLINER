@@ -9,29 +9,47 @@ using System.Threading.Tasks;
 
 namespace Page
 {
-    public static class Browser
+    public sealed class Browser
     {
         private static IWebDriver driver = null;
-        private static readonly object lockObject = new object();
-
-        public static IWebDriver InitializeBrowser(string browserName)
+        private static readonly IDictionary<string, IWebDriver> Drivers = new Dictionary<string, IWebDriver>();
+       
+        public static IWebDriver Driver
         {
-            if (driver == null)
+            get
+            {
+                return driver;
+            }
+            set
+            {
+                driver = value;
+            }
+        }
+        public static void InitializeBrowser(string browserName)
+        {
+            if (Driver == null)
             {
                 if (browserName.Equals("Chrome"))
                 {
-                    driver = new ChromeDriver();
+                    Driver = new ChromeDriver();
+                    Driver.Manage().Window.Maximize();
+                    Driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
+                    Drivers.Add("Chrome", Driver);
                 }
                 else if (browserName.Equals("Firefox"))
                 {
-                    driver = new FirefoxDriver();
-                }                
+                    Driver = new FirefoxDriver();
+                    Driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
+                    Drivers.Add("Firefox", Driver);
+
+                }
                 else
                 {
                     throw new NullReferenceException("WebDriver browser name was uncorrect. Try enter Chrome or Firefox! ");
                 }
             }
-            return driver;
         }
-    }    
+    }
+
 }
+

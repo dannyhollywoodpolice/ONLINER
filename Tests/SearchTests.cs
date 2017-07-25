@@ -12,37 +12,33 @@ using System.Threading.Tasks;
 namespace Test
 {
     [TestFixture]
-    public class SearchTests
+    public class SearchTests 
     {
         private string searchWord = "iPhone";
         private string mainPageUrl = "https://www.onliner.by/";
+
         private static IWebDriver browser;
 
         [TestFixtureSetUp]
-        public static void Maximise()
+        public static void InitializeBrowser()
         {
-            browser = Browser.InitializeBrowser("Chrome");
-            browser.Manage().Window.Maximize();
-            browser.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
+            Browser.InitializeBrowser("Chrome");
+            browser = Browser.Driver;
         }
         [Test]
-        public void test1()
+        public void VerifyIfSearchIsCorrect()
         {           
             Navigation.NavigateTo(browser, mainPageUrl);
+            SearchActions.EnterWord(browser, searchWord);
+            SearchActions.GoToTheFirstResult(browser);
+            SearchActions.CheckTitle(browser, searchWord);
+        }
 
-            Header header = new Header(browser);
-           
-
-            SearchByWord.EnterWord(header.SearchBox, searchWord);
-
-            SearchResultPage resultPage = new SearchResultPage(browser);
-            //header.ListOfResults.ElementAt(0).Click();
-            browser.SwitchTo().Frame(0);
-            IWebElement a = browser.FindElement(By.PartialLinkText("Apple iPhone 7 32GB Black"));
-             a.Click();
-           
-        Assert.AreEqual("Apple iPhone 7 32GB Black", a.Text);
-
+        [TestFixtureTearDown]
+        public static void CloseBrowser()
+        {
+            browser.Close();
+            browser.Quit();
         }
     }
 }

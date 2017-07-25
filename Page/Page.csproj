@@ -51,9 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PageObjects\BasePage.cs" />
     <Compile Include="Browser.cs" />
     <Compile Include="PageObjects\Header.cs" />
-    <Compile Include="PageObjects\SearchResultPage.cs" />
+    <Compile Include="PageObjects\ProductPage.cs" />
+    <Compile Include="PageObjects\SearchResultFrame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
