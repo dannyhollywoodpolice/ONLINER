@@ -18,3 +18,4 @@ C:\Users\Lilia_Perevozchikova\ONLINER\Logic\obj\Debug\Logic.dll
 C:\Users\Lilia_Perevozchikova\ONLINER\Logic\obj\Debug\Logic.pdb
 C:\Users\Lilia_Perevozchikova\ONLINER\Logic\bin\Debug\Page.dll
 C:\Users\Lilia_Perevozchikova\ONLINER\Logic\bin\Debug\Page.pdb
+C:\Users\Lilia_Perevozchikova\ONLINER\Logic\bin\Debug\geckodriver.exe

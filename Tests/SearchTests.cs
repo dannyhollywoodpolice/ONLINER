@@ -5,6 +5,7 @@ using Page;
 using Page.PageObjects;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,9 +15,7 @@ namespace Test
     [TestFixture]
     public class SearchTests 
     {
-        private string searchWord = "iPhone";
-        private string mainPageUrl = "https://www.onliner.by/";
-
+       
         private static IWebDriver browser;
 
         [TestFixtureSetUp]
@@ -27,11 +26,14 @@ namespace Test
         }
         [Test]
         public void VerifyIfSearchIsCorrect()
-        {           
-            Navigation.NavigateTo(browser, mainPageUrl);
-            SearchActions.EnterWord(browser, searchWord);
+        {
+            
+            Navigation.NavigateTo(browser, ConfigurationManager.AppSettings["mainPageUrl"]);
+            SearchActions.EnterWord(browser, ConfigurationManager.AppSettings["searchWord"]);
             SearchActions.GoToTheFirstResult(browser);
-            SearchActions.CheckTitle(browser, searchWord);
+            //костыль для нового firefox
+            browser.SwitchTo().DefaultContent();
+            SearchActions.CheckTitle(browser, ConfigurationManager.AppSettings["searchWord"]);
         }
 
         [TestFixtureTearDown]

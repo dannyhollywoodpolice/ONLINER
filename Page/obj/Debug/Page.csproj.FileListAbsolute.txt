@@ -16,3 +16,4 @@ C:\Users\Lilia_Perevozchikova\ONLINER\Page\bin\Debug\WebDriver.Support.xml
 C:\Users\Lilia_Perevozchikova\ONLINER\Page\obj\Debug\Page.csprojResolveAssemblyReference.cache
 C:\Users\Lilia_Perevozchikova\ONLINER\Page\obj\Debug\Page.dll
 C:\Users\Lilia_Perevozchikova\ONLINER\Page\obj\Debug\Page.pdb
+C:\Users\Lilia_Perevozchikova\ONLINER\Page\bin\Debug\geckodriver.exe

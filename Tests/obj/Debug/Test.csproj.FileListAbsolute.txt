@@ -28,3 +28,5 @@ C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\WebDriver.Support.xml
 C:\Users\Lilia_Perevozchikova\ONLINER\Tests\obj\Debug\Test.csprojResolveAssemblyReference.cache
 C:\Users\Lilia_Perevozchikova\ONLINER\Tests\obj\Debug\Tests.dll
 C:\Users\Lilia_Perevozchikova\ONLINER\Tests\obj\Debug\Tests.pdb
+C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\Tests.dll.config
+C:\Users\Lilia_Perevozchikova\ONLINER\Tests\bin\Debug\geckodriver.exe
