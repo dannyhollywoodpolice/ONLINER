@@ -12,10 +12,11 @@ namespace Page
     {
 
         public  readonly IWebDriver driver;
-
+        
         public BasePage(IWebDriver browser)
         {
             this.driver = browser;
+            browser.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
             PageFactory.InitElements(browser, this);
         }
     }
