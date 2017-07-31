@@ -1,18 +1,15 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Page
 {
+    //базовый класс для каждой странички, в котором мы создаем экземпляр странички
+    //со всем набором элементов
     public class BasePage
     {
+        public IWebDriver driver;
 
-        public  readonly IWebDriver driver;
-        
         public BasePage(IWebDriver browser)
         {
             this.driver = browser;

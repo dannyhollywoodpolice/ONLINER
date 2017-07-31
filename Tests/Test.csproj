@@ -74,9 +74,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Logic\Logic.csproj">
+    <ProjectReference Include="..\Logic\Business.csproj">
       <Project>{84358CCD-37AB-4D63-9531-F01C1518749C}</Project>
-      <Name>Logic</Name>
+      <Name>Business</Name>
     </ProjectReference>
     <ProjectReference Include="..\Page\Page.csproj">
       <Project>{504E1CB1-2626-4516-9C28-7245D286911E}</Project>

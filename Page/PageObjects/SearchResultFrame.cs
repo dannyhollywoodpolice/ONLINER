@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Page.PageObjects
+namespace Page
 {
     public class SearchResultFrame : BasePage
     {

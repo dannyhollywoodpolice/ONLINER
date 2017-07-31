@@ -1,0 +1,8 @@
+2017-07-30 23:53:25.6236 | DEBUG | Page.BrowserFactory | Initializing browser! It is Chrome!
+2017-07-30 23:53:38.8564 | INFO | Page.BrowserFactory | Navigating to https://www.onliner.by/! 
+2017-07-30 23:53:39.7684 | INFO | Business.BusinessObjects.HeaderBO | Entering the search word iPhone into search box
+2017-07-30 23:53:39.9034 | INFO | Busines.BusinessObjects.SearchResultFrameBO | Browser switched from frame element to main page!
+2017-07-30 23:53:58.0355 | INFO | Busines.BusinessObjects.SearchResultFrameBO | The first link in the list of search resultes was clicked
+2017-07-30 23:53:58.0515 | INFO | Page.BrowserFactory | Switching to default content! 
+2017-07-30 23:53:58.2225 | INFO | Business.BusinessObjects.ProductPageBO | Title of article contains needed string iPhone! Success!
+2017-07-30 23:53:58.2355 | INFO | Page.BrowserFactory | Closing browser!

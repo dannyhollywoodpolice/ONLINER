@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 
-namespace Page.PageObjects
+namespace Page
 {
     public class ProductPage : BasePage
     {

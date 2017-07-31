@@ -1,0 +1,5 @@
+E:\ONLINER\ONLINER\Shared\bin\Debug\Shared.dll
+E:\ONLINER\ONLINER\Shared\bin\Debug\Shared.pdb
+E:\ONLINER\ONLINER\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+E:\ONLINER\ONLINER\Shared\obj\Debug\Shared.dll
+E:\ONLINER\ONLINER\Shared\obj\Debug\Shared.pdb

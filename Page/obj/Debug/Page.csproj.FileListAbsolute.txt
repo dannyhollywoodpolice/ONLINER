@@ -17,3 +17,16 @@ C:\Users\Lilia_Perevozchikova\ONLINER\Page\obj\Debug\Page.csprojResolveAssemblyR
 C:\Users\Lilia_Perevozchikova\ONLINER\Page\obj\Debug\Page.dll
 C:\Users\Lilia_Perevozchikova\ONLINER\Page\obj\Debug\Page.pdb
 C:\Users\Lilia_Perevozchikova\ONLINER\Page\bin\Debug\geckodriver.exe
+E:\ONLINER\ONLINER\Page\bin\Debug\geckodriver.exe
+E:\ONLINER\ONLINER\Page\bin\Debug\Page.dll
+E:\ONLINER\ONLINER\Page\bin\Debug\Page.pdb
+E:\ONLINER\ONLINER\Page\bin\Debug\WebDriver.dll
+E:\ONLINER\ONLINER\Page\bin\Debug\WebDriver.Support.dll
+E:\ONLINER\ONLINER\Page\bin\Debug\WebDriver.xml
+E:\ONLINER\ONLINER\Page\bin\Debug\WebDriver.Support.xml
+E:\ONLINER\ONLINER\Page\obj\Debug\Page.csprojResolveAssemblyReference.cache
+E:\ONLINER\ONLINER\Page\obj\Debug\Page.dll
+E:\ONLINER\ONLINER\Page\obj\Debug\Page.pdb
+E:\ONLINER\ONLINER\Page\bin\Debug\NLog.config
+E:\ONLINER\ONLINER\Page\bin\Debug\NLog.dll
+E:\ONLINER\ONLINER\Page\bin\Debug\NLog.xml

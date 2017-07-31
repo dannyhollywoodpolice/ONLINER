@@ -1,0 +1,15 @@
+E:\ONLINER\ONLINER\Logic\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\ONLINER\ONLINER\Logic\obj\Debug\Logic.dll
+E:\ONLINER\ONLINER\Logic\obj\Debug\Logic.pdb
+E:\ONLINER\ONLINER\Logic\bin\Debug\geckodriver.exe
+E:\ONLINER\ONLINER\Logic\bin\Debug\Logic.dll
+E:\ONLINER\ONLINER\Logic\bin\Debug\Logic.pdb
+E:\ONLINER\ONLINER\Logic\bin\Debug\Page.dll
+E:\ONLINER\ONLINER\Logic\bin\Debug\WebDriver.dll
+E:\ONLINER\ONLINER\Logic\bin\Debug\WebDriver.Support.dll
+E:\ONLINER\ONLINER\Logic\bin\Debug\Page.pdb
+E:\ONLINER\ONLINER\Logic\bin\Debug\WebDriver.xml
+E:\ONLINER\ONLINER\Logic\bin\Debug\WebDriver.Support.xml
+E:\ONLINER\ONLINER\Logic\bin\Debug\NLog.config
+E:\ONLINER\ONLINER\Logic\bin\Debug\NLog.dll
+E:\ONLINER\ONLINER\Logic\bin\Debug\NLog.xml
