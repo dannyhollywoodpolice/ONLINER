@@ -1,11 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using Page;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
 
 namespace Tests
 {
@@ -13,11 +9,12 @@ namespace Tests
     public class BaseTestClass
     {
         public static IWebDriver browser;
+        public string Chrome =  ConfigurationManager.AppSettings["Chrome"];
 
         [SetUp]
-        public virtual void SetUp()
+        public void SetUp()
         {
-            BrowserFactory.InitializeBrowser("Chrome");
+            BrowserFactory.InitializeBrowser(Chrome);
             browser = BrowserFactory.Driver;
         }
 

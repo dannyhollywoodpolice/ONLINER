@@ -1,30 +1,47 @@
-﻿using NLog;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using Page;
 
 namespace Business.BusinessObjects
 {
     public class SearchBO
     {
-        private  IWebDriver browser;
+        private IWebDriver browser;
 
         public SearchBO(IWebDriver driver)
         {
             this.browser = driver;
         }
 
-        public void EnterWordInSearchBoxClickOnTheFirstLink(string word)
+
+        private Header _header;
+
+        public Header Header
         {
-            Header head = new Header(browser);
-            ProductPage article = new ProductPage(browser);
-            SearchResultFrame frame = new SearchResultFrame(browser);
-
-            head.EnterWordToFind(word);
-            frame.GoToTheFirstResult();
-            BrowserFactory.SwitchToDefContentForFirefox();
-            article.CheckTitle(word);          
-
+            get
+            {
+                return _header ?? (_header = new Header(browser));
+            }
         }
-        
+
+        private ProductPage _productPage;
+
+        public ProductPage ProductPage
+        {
+            get
+            {
+                return _productPage ?? (_productPage = new ProductPage(browser));
+            }
+        }
+
+        private SearchResultFrame _searchResultFrame;
+
+
+        public SearchResultFrame SearchResultFrame
+        {
+            get
+            {
+                return _searchResultFrame ?? (_searchResultFrame = new SearchResultFrame(browser));
+            }
+        }
     }
 }
