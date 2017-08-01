@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
 namespace Page
 {
@@ -14,5 +9,11 @@ namespace Page
         }
 
         public IWebElement Title => driver.FindElement(By.XPath("//h1[contains(@class, 'catalog-masthead__title')]"));
+
+        public void CheckTitle(string title)
+        {
+            Title.Text.Contains(title);
+            logger.Info($"Title of article contains needed string {title}! Success!");
+        }
     }
 }

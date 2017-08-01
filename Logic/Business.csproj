@@ -54,9 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessObjects\HeaderBO.cs" />
-    <Compile Include="BusinessObjects\ProductPageBO.cs" />
-    <Compile Include="BusinessObjects\SearchResultFrameBO.cs" />
+    <Compile Include="BusinessObjects\SearchBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

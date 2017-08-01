@@ -1,0 +1,20 @@
+2017-08-01 12:45:19.3370 | INFO | Page.BrowserFactory | Initializing browser! It is Chrome!
+2017-08-01 12:45:21.3694 | INFO | Page.BrowserFactory | Navigating to https://www.onliner.by/! 
+2017-08-01 12:45:21.6617 | INFO | Page.BasePage | Entering the search word iPhone into search box
+2017-08-01 12:45:31.1615 | INFO | Page.BrowserFactory | Closing browser!
+2017-08-01 12:52:44.1000 | INFO | Page.BrowserFactory | Initializing browser! It is Chrome!
+2017-08-01 12:52:46.1402 | INFO | Page.BrowserFactory | Navigating to https://www.onliner.by/! 
+2017-08-01 12:52:46.3006 | INFO | Page.BasePage | Entering the search word iPhone into search box
+2017-08-01 12:52:46.3287 | INFO | Page.BasePage | Browser switched from frame element to main page!
+2017-08-01 12:52:49.9830 | INFO | Page.BasePage | The first link in the list of search resultes was clicked
+2017-08-01 12:52:50.2095 | INFO | Page.BrowserFactory | Switching to default content! 
+2017-08-01 12:52:50.2456 | INFO | Page.BasePage | Title of article contains needed string iPhone! Success!
+2017-08-01 12:52:50.2456 | INFO | Page.BrowserFactory | Closing browser!
+2017-08-01 13:21:16.1156 | INFO | Page.BrowserFactory | Initializing browser! It is Chrome!
+2017-08-01 13:21:18.3331 | INFO | Page.BrowserFactory | Navigating to https://www.onliner.by/! 
+2017-08-01 13:21:18.4987 | INFO | Page.BasePage | Entering the search word iPhone into search box
+2017-08-01 13:21:18.5275 | INFO | Page.BasePage | Browser switched from frame element to main page!
+2017-08-01 13:21:22.5549 | INFO | Page.BasePage | The first link in the list of search resultes was clicked
+2017-08-01 13:21:22.5549 | INFO | Page.BrowserFactory | Switching to default content! 
+2017-08-01 13:21:22.5991 | INFO | Page.BasePage | Title of article contains needed string iPhone! Success!
+2017-08-01 13:21:22.5991 | INFO | Page.BrowserFactory | Closing browser!

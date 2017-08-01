@@ -30,3 +30,16 @@ E:\ONLINER\ONLINER\Page\obj\Debug\Page.pdb
 E:\ONLINER\ONLINER\Page\bin\Debug\NLog.config
 E:\ONLINER\ONLINER\Page\bin\Debug\NLog.dll
 E:\ONLINER\ONLINER\Page\bin\Debug\NLog.xml
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\geckodriver.exe
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\NLog.config
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\Page.dll
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\Page.pdb
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\NLog.dll
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\WebDriver.dll
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\WebDriver.Support.dll
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\NLog.xml
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\WebDriver.xml
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\bin\Debug\WebDriver.Support.xml
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\obj\Debug\Page.csprojResolveAssemblyReference.cache
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\obj\Debug\Page.dll
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Page\obj\Debug\Page.pdb

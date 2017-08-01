@@ -3,3 +3,8 @@ E:\ONLINER\ONLINER\Shared\bin\Debug\Shared.pdb
 E:\ONLINER\ONLINER\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
 E:\ONLINER\ONLINER\Shared\obj\Debug\Shared.dll
 E:\ONLINER\ONLINER\Shared\obj\Debug\Shared.pdb
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Shared\bin\Debug\Shared.dll
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Shared\bin\Debug\Shared.pdb
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Shared\obj\Debug\Shared.dll
+C:\Users\Liliya_Peravozchykav\Downloads\ONLINER\ONLINER\Shared\obj\Debug\Shared.pdb

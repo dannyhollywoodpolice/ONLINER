@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using NLog;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using System;
 
@@ -8,6 +9,8 @@ namespace Page
     //со всем набором элементов
     public class BasePage
     {
+        public  static Logger logger = LogManager.GetCurrentClassLogger();
+
         public IWebDriver driver;
 
         public BasePage(IWebDriver browser)
