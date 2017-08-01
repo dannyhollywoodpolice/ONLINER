@@ -1,11 +1,11 @@
-﻿using NLog;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
-using System;
-
-namespace Page
+﻿namespace Page
 {
+    using NLog;
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Chrome;
+    using OpenQA.Selenium.Firefox;
+    using System;
+
     public static class BrowserFactory
     {
         private static IWebDriver driver = null;

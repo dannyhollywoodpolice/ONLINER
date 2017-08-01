@@ -1,10 +1,10 @@
-﻿using NLog;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
-using System;
-
-namespace Page
+﻿namespace Page
 {
+    using NLog;
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Support.PageObjects;
+    using System;
+
     //базовый класс для каждой странички, в котором мы создаем экземпляр странички
     //со всем набором элементов
     public class BasePage

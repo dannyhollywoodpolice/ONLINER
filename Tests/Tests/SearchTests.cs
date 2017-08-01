@@ -1,15 +1,11 @@
-﻿using Business.BusinessObjects;
-using NUnit.Framework;
-using OpenQA.Selenium;
-using Page;
-using System.Collections;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using Tests;
-
-namespace Test
+﻿namespace Test
 {
+    using Business.BusinessObjects;
+    using NUnit.Framework;
+    using Page;
+    using System.Configuration;
+    using Tests;
+
     [TestFixture]
     public class SearchTests : BaseTestClass
     {

@@ -1,7 +1,7 @@
-﻿using OpenQA.Selenium;
-
-namespace Page
+﻿namespace Page
 {
+    using OpenQA.Selenium;
+
     public class ProductPage : BasePage
     {
         public ProductPage(IWebDriver browser) : base(browser)

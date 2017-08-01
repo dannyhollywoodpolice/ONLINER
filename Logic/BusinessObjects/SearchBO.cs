@@ -1,8 +1,8 @@
-﻿using OpenQA.Selenium;
-using Page;
-
-namespace Business.BusinessObjects
+﻿namespace Business.BusinessObjects
 {
+    using OpenQA.Selenium;
+    using Page;
+
     public class SearchBO
     {
         private IWebDriver browser;

@@ -1,9 +1,9 @@
-﻿using OpenQA.Selenium;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Page
+﻿namespace Page
 {
+    using OpenQA.Selenium;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class SearchResultFrame : BasePage
     {
         public SearchResultFrame(IWebDriver browser) : base(browser)

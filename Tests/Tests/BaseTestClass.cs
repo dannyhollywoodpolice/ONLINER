@@ -1,10 +1,10 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using Page;
-using System.Configuration;
-
-namespace Tests
+﻿namespace Tests
 {
+    using NUnit.Framework;
+    using OpenQA.Selenium;
+    using Page;
+    using System.Configuration;
+
     [TestFixture]
     public class BaseTestClass
     {

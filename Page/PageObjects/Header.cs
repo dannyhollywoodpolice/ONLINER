@@ -1,7 +1,8 @@
-﻿using OpenQA.Selenium;
-
-namespace Page
+﻿namespace Page
 {
+    using OpenQA.Selenium;
+
+
     public class Header : BasePage    {
         
         public Header(IWebDriver browser) : base(browser)
